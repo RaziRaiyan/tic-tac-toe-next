@@ -3,7 +3,7 @@ import Dialog from '../components/Dialog';
 import PopUp from '../components/PopUp';
 import {GAME_MODE, DIFFICULTY} from './index';
 import {useRouter} from 'next/router';
-import Link from 'next/Link';
+import Link from 'next/link';
 import {checkWinner, makeMachineMove} from "../utils/game_logic";
 
 export const MARKER = {
